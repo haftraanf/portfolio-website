@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const ProjectSection = () => {
 
     const projectsList = [
@@ -23,7 +23,7 @@ const ProjectSection = () => {
 
         {projectsList.map(({id, imageSrc, description}) => (
             <div key={id} className='max-w-screen-md mx-auto shadow-lg shadow-gray-600 rounded-xl m-20 mb-20'>
-                <img 
+                <Image 
                     src={imageSrc} 
                     alt={description}  
                     style={{ width: '100%', height: '80%', display: 'block', margin: '0 auto', borderRadius: '10px'}} 
