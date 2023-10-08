@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div>
         <h1 className="text-5xl py-2 font-extrabold md:text-7xl">
           <span className="">
-            Hi, I'm {}
+            Hi, I&apos;m {}
           </span>
           <TypeAnimation
             sequence={[
